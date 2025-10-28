@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lexical Analyzer using DFA Simulation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🔤 Lexical Analyzer using DFA Simulation</h1>
+
+  <div class="container">
+    <textarea id="inputCode" placeholder="Enter your code here..."></textarea>
+    <button onclick="analyze()">Analyze Tokens</button>
+  </div>
+
+  <h2>🧩 Token Table</h2>
+  <table id="tokenTable">
+    <thead>
+      <tr>
+        <th>Lexeme</th>
+        <th>Token Type</th>
+        <th>DFA States Traversed</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <footer>
+    <p>Created for DFA-based Lexical Analysis Simulation Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
